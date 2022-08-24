@@ -5,7 +5,7 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
 Add '.DS_Store' to .gitignore file
 
-the run:
+then run:
 ```bash
 git add .
 git commit -m "cleaned DS_Store"
